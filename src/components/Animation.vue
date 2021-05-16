@@ -14,6 +14,8 @@
         <space/>
         <Menu/>
         <string-animation/>
+        <space/>
+        <image-card/>
     </div> 
 </template>
 
@@ -23,13 +25,15 @@ import Space from './utilities/Space.vue'
 import RectSpinner from '@/components/RectSpinner'
 import Menu from './menu/Menu.vue'
 import StringAnimation from './StringAnimation.vue'
+import ImageCard from './ImageCard.vue'
 export default {
   components: {
     DoubleSpiner,
     Space,
     RectSpinner,
     Menu,
-    StringAnimation
+    StringAnimation,
+    ImageCard
   }
 }
 </script>

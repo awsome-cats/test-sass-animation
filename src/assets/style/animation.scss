@@ -3,7 +3,38 @@
 // インポートする際は_を省いてもよく、その記法が一般的である
 
 @import 'mixin';
-
+@import 'appear';
 $cblack: black;
 $cOrange: orange;
 $cGray:Gray;
+
+/* ImageAnimation.vue style */
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding:4px 6px;
+    background-color: black;
+    color: white;
+    opacity: .7;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0, .3);
+    cursor: pointer;
+}
+
+img {
+    max-width: 80%;
+}
+
+.section-img {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:20px;
+}
+
+/* ImageAnimation.vue style end */
+
+
+
+
+

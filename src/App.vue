@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/anime">animation test</router-link>
+      <router-link to="/anime">画像アニメーション1</router-link>
     </div>
     <router-view/>
   </div>

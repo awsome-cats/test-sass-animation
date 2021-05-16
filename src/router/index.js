@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Animation from '../components/Animation.vue'
+// import Animation from '../components/Animation.vue'
+import ImageAnimation from '../views/ImageAnimation.vue'
 
 Vue.use(VueRouter)
 
@@ -13,8 +14,8 @@ const routes = [
   },
   {
     path: '/anime',
-    name: 'animation',
-    component: Animation
+    name: 'image-anime',
+    component: ImageAnimation
   }
 ]
 
