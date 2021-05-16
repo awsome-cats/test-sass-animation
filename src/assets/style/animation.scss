@@ -1,0 +1,9 @@
+// _mixin.scssをインポートする
+// _がついたscssファイルは部品とみなされcssファイルとして生成されない特徴がある
+// インポートする際は_を省いてもよく、その記法が一般的である
+
+@import 'mixin';
+
+$cblack: black;
+$cOrange: orange;
+$cGray:Gray;
